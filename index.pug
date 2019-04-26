@@ -1,0 +1,139 @@
+doctype html
+html(lang="en")
+head
+	meta(charset="UTF-8")
+	title landing
+	link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&amp;subset=latin-ext")
+	link(rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous")
+	script(src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous")
+	link(rel="stylesheet", href="css/style.css")
+body
+	.header
+		.container
+			nav.navbar.navbar-expand-md.navbar-dark
+				button.navbar-toggler(type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation")
+					span.navbar-toggler-icon
+				.collapse.navbar-collapse.justify-content-center#navbarNavDropdown
+					ul.navbar-nav
+						li.nav-item: a.nav-link(href="#") Home
+						li.nav-item: a.nav-link(href="#") Portfolio
+						li.nav-item: a.nav-link(href="#") About Us
+						li.nav-item: a.nav-link(href="#") Contact
+			.row.organization
+				.todo.col-lg-6.col-md-12.col-sm-12
+					h1 our strong organaization
+					p Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt  ut labore et. ectetur adig ipis cing elit, sed do eiusmod tempor incididunt.
+					a#contus.contactusbutton.col-md-6.col-lg-5.col-sm-12.offset-md-3.offset-lg-0(href="#") contact us
+				.video-block.col-lg-6.col-md-12.col-sm-12
+					img(src="img/VedioIcon.png", alt="типа видео")
+	.features
+		.container
+			.provide.row
+				.do-you.col-lg-5.col-xl-5.col-md-6
+					h1 do you know we can provide for you ?
+					p Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt ut labore et.Lorem ni ipsum dolor sit amet, consectetur adipis cing elit, ed doi eiusmod tempor incididunt ut labore et.
+					a.button-learn-more.col-md-12.col-sm-12.col-lg-6(href="#") learn more
+				.feat-grid.col-lg-6.col-xl-6.col-md-6.offset-xl-1.col-md-6.offset-lg-1.col-md-6.col-lg-6.offset-lg-1
+					.row
+						.feat-grid-item.col-lg-6.col-xl-6.col-md-12.col-sm-6.col-xs-12
+							img(src="img/Settings.svg", alt="setting")
+							h2 management
+							p Lorem ipsum dolor sitea amet, zixf conseit  adipi cing elit, seddi do eiusmod btdempor in didunt utlae ore etioe.Lorem ipsum new idolor
+						.feat-grid-item.col-lg-6.col-xl-6.col-md-12.col-sm-6.col-xs-12
+							img(src="img/Pencil.svg", alt="pencil")
+							h2 UI /UX design
+							p Lorem ipsum dolor sitea amet, zixf conseit  adipi cing elit, seddi do eiusmod btdempor in didunt utlae ore etioe.Lorem ipsum new idolor sit amet
+						.feat-grid-item.col-lg-6.col-xl-6.col-md-12.col-sm-6.col-xs-12
+							img(src="img/Diamond.svg", alt="diamond")
+							h2 logo / branding
+							p Lorem ipsum dolor sitea amet, zixf conseit  adipi cing elit, seddi do eiusmod btdempor in didunt utlae ore etioeew idolor sit amet
+						.feat-grid-item.col-lg-6.col-xl-6.col-md-12.col-sm-6.col-xs-12
+							img(src="img/Truck 2.svg", alt="truck")
+							h2 animation
+							p LorLorem ipsum dolor sitea amet, zixf conseit  adipi cing elit, seddi do eiusmod btdempor in didunt utlae ore etioe.Lorem ipsum new idolor sit amet
+			.product
+				h1 feature products
+				p Lorem ipsum dolor sit amet, consectetur adipis cing elit,sed do eiusmod tempor incididunt ut labore et.
+				.prod-sort
+					button#all.prod-sort-item all
+					button#print.prod-sort-item print template
+					button#web.prod-sort-item web template
+					button#user.prod-sort-item user interface
+					button#mock.prod-sort-item mock up
+			#prodelems.prod-samples.row
+				.example-item.print.col-md-4.col-lg-3.col-sm-6.col-xs-6
+					img(src="img/Rectangle1.jpg", alt="sample")
+				.example-item.web.col-md-4.col-lg-3.col-sm-6.col-xs-6
+					img(src="img/Rectangle1.jpg", alt="sample")
+				.example-item.user.col-md-4.col-lg-3.col-sm-6.col-xs-6
+					img(src="img/Rectangle1.jpg", alt="sample")
+				.example-item.mock.col-md-4.col-lg-3.col-sm-6.col-xs-6
+					img(src="img/Rectangle1.jpg", alt="sample")
+				.example-item.print.col-md-4.col-lg-3.col-sm-6.col-xs-6
+					img(src="img/Rectangle1.jpg", alt="sample")
+				.example-item.web.col-md-4.col-lg-3.col-sm-6.col-xs-6
+					img(src="img/Rectangle1.jpg", alt="sample")
+				.example-item.user.col-md-4.col-lg-3.col-sm-6.col-xs-6
+					img(src="img/Rectangle1.jpg", alt="sample")
+				.example-item.mock.col-md-4.col-lg-3.col-sm-6.col-xs-6
+					img(src="img/Rectangle1.jpg", alt="sample")
+			.meet-our.row
+				h1.col-12 meet our team
+				p.col-lg-5 Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed dooing eiusmod tempor incididut labore Ui / Ux , print template.
+			.team.row
+				.director.col-md-4.col-lg-3: img(src="img/Rectangle7.jpg", alt="director")
+				.director-info.col-md-7.offset-md-1.col-lg-8.offset-lg-1
+					h2.col-12 mark waugh
+					p Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed dooing eiusmod tempor incididut labore Ui / Ux , print template.
+					ul.director-contact.col-lg-12
+						li: a(href="#") facebook
+						li: a(href="#") dribble
+						li: a(href="#") behance
+						li: a(href="#") twitter
+					.row
+						.employee.col-md-4.col-sm-6.col-xs-6.col-lg-3
+							img(src="img/Rectangle7copy.jpg",alt="employee")
+						.employee.col-md-4.col-sm-6.col-xs-6.col-lg-3
+							img(src="img/Rectangle7copy.jpg",alt="employee")
+						.employee.col-md-4.col-sm-6.col-xs-6.col-lg-3
+							img(src="img/Rectangle7copy.jpg",alt="employee")
+						.employee.col-md-4.col-sm-6.col-xs-6.col-lg-3
+							img(src="img/Rectangle7copy.jpg",alt="employee")
+	.subscribe
+		.container
+			h1 Design tips, tricks, and freebies. Delivered weekly.
+			p Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod.
+			form#subscribe_form.sub-form(name="subscribe", action="")
+				input#feedback_mail.col-md-5(name="feedbackMail", type="email", placeholder="Email Address...")
+				input#submit_for_feedback.col-md-2(name="submit_for_feedback", type="submit", value="Subscribe")
+	.get-in
+		.container
+			h1.col-12 get in touch
+			p.col-lg-7 Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt ut labore et.ur adipis cing elit, sed do eiusmod tempor incididunt ut labore et. ur adipis cing elit, sed do eiusmod tempor incididunt ut labore et.
+			.row
+				.feedback.col-lg-7
+					form#feedback_form(name="feedback", action="")
+						input.input-name.col-md-auto.col-sm-12.col-xs-12(name="name", type="text", placeholder="Name")
+						input.input-mail.col-md-auto.col-sm-12.col-xs-12(name="mail", type="email", placeholder="Your mail")
+						textarea.input-message.col-12(name="message", form="feedback_form", rows="7", placeholder="Type your message")
+						input#button_submit.button-submit.col-12(name="submit", type="submit", value="Send message")
+				.contact-info.col-sm-12.col-md-12.col-lg-4.offset-lg-1
+					h3 contact info
+					p Jalalabad 24 / A, Ambaarkhana, Sylhet, Bangladesh
+					p redwan@deviserweb.com
+					p (+88) 017 617 46373
+	.footer
+		.container
+			p.col-md-auto © Copyright @Junaed 2016, All rights reserved.
+			.soc-panel.col-md-auto
+				a.social(href="#"): span.fa.fa-twitter
+				a.social(href="#"): span.fa.fa-linkedin
+				a.social(href="#"): span.fa.fa-google-plus
+				a.social(href="#"): span.fa.fa-facebook
+
+
+	script(src='js/script.js')
+	script(src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous")
+	script(src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous")
